@@ -1,6 +1,10 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
+<<<<<<< HEAD
   - https://github.com/redhat-appstudio/internal-infra-deployments/components/monitoring/blackbox-exporter/staging/private/stone-stage-p01?ref=5e48bb6dca3eb756f5de24fe2664e14dbf55388f
+=======
+  - https://github.com/redhat-appstudio/internal-infra-deployments/components/monitoring/blackbox-exporter/staging/private/stone-stage-p01?ref=7bec7bd3962aa43cabf37cf8ba5f175a7f6df157
+>>>>>>> 7ae148a56 (SPRE-4606: update blackbox probes hash for rh01 and p01)
 
 namespace: appstudio-monitoring
